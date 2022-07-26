@@ -9,6 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start": "nodemon index",
     "test": "npm start"
   },
   "repository": {

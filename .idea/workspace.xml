@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helpers/handleReqRes.js" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/handleReqRes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <updated>1658791354903</updated>
       <workItem from="1658791356212" duration="2367000" />
       <workItem from="1658813910609" duration="499000" />
-      <workItem from="1658838097609" duration="5989000" />
+      <workItem from="1658838097609" duration="8813000" />
     </task>
     <servers />
   </component>

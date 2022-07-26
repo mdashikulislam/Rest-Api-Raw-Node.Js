@@ -19,7 +19,7 @@ app.config = {
 //Create Server
 app.createServer = () => {
     const server = http.createServer(handleReqRes);
-    server.listen(app.config.port,()=>{
+    server.listen(app.config.port,() => {
         console.log(`Listening to port ${app.config.port}`);
     });
 }

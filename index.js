@@ -14,7 +14,7 @@ const data = require('./lib/data');
 const app = {};
 
 
-data.update('test','newFile',{name:'Pakistan',language:'Urdu'} ,(err ,data) => {
+data.delete('test','newFile' ,(err ,data) => {
     console.log(err);
     console.log(data);
 });

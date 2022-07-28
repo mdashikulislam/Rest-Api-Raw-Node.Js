@@ -9,12 +9,13 @@
 const http = require('http');
 const {handleReqRes} = require('./helpers/handleReqRes');
 const environment = require('./helpers/environments');
-const lib = require('./lib/data');
+const data = require('./lib/data');
 //app object -- module scaffolding
 const app = {};
 
 
-lib.read('test','newFile', (err ,data) => {
+data.update('test','newFile',{name:'Pakistan',language:'Urdu'} ,(err ,data) => {
+    console.log(err);
     console.log(data);
 });
 

@@ -13,10 +13,10 @@ const lib = require('./lib/data');
 //app object -- module scaffolding
 const app = {};
 
-lib.create('test','newFile',{name:'bangladesh',language:'Bangla'}, (err) => {
-   console.log(err);
-});
 
+lib.read('test','newFile', (err ,data) => {
+    console.log(data);
+});
 
 
 //Create Server

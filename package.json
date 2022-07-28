@@ -9,7 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon index",
+    "start": "NODE_ENV=statging nodemon index",
+    "production": "NODE_ENV=production nodemon index",
     "test": "npm start"
   },
   "repository": {

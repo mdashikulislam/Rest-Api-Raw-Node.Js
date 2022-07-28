@@ -45,7 +45,6 @@ handler.handleReqRes = (req,res)=> {
              res.writeHead(statusCode);
              res.end(payloadString);
          });
-         res.end('hello');
      });
 }
 module.exports = handler;

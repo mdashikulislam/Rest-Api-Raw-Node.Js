@@ -9,8 +9,15 @@
 const http = require('http');
 const {handleReqRes} = require('./helpers/handleReqRes');
 const environment = require('./helpers/environments');
+const lib = require('./lib/data');
 //app object -- module scaffolding
 const app = {};
+
+lib.create('test','newFile',{name:'bangladesh',language:'Bangla'}, (err) => {
+   console.log(err);
+});
+
+
 
 //Create Server
 app.createServer = () => {
